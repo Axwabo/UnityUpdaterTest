@@ -267,7 +267,7 @@ namespace slocExporter {
 
         public static bool HasAttribute(this slocHeader header, slocAttributes attribute) => (header.Attributes & attribute) == attribute;
 
-        public static readonly string CurrentVersion = "1.1.1";
+        public static readonly string CurrentVersion = "2.0.0";
 
     }
 
